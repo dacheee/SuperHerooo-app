@@ -9,7 +9,7 @@ public class SuperHeroApp {
 
         boolean isEvil;
 
-        double heroSalary;
+        String heroSalary;
         String heroRealName;
         String universe;
 
@@ -17,13 +17,13 @@ public class SuperHeroApp {
 
 
 //  Variable assignment
-        heroName = "AliExpress Man";
-        heroCity = "Beijing";
-        heroPower1 = "super cheap";
-        heroPower2 = "many items";
+        heroName = "Super Singer";
+        heroCity = "Karaoke world";
+        heroPower1 = "super sexy";
+        heroPower2 = "the most beautifil voice";
         isEvil = false;
-        heroSalary = 0.99;
-        heroRealName = "Hjang Hjong";
+        heroSalary = "all the money";
+        heroRealName = "Juris";
         universe = "our";
 //  Print out Hero info card
 
@@ -32,14 +32,21 @@ public class SuperHeroApp {
         System.out.println("***********************");
         System.out.println("Hero name :   " +     heroName);
         System.out.println("--------------------");
-        System.out.println("Hero lives in :   " + heroCity+ universe + "universe");
+        System.out.println("Hero lives in :   " + heroCity);
+        System.out.println(universe + " universe");
         System.out.println("--------------------");
         System.out.println("Hero Superpower :    ");
         System.out.println(heroPower1);
         System.out.println(heroPower2);
-        System.out.println("Hero earns :   " + heroSalary + "EUR");
+        System.out.println("Hero earns " + heroSalary);
         System.out.println();
-        System.out.println("Hero hides his identity, but his real name is" +heroRealName);
+        System.out.println("Hero hides his identity, but his real name is " +heroRealName);
+        System.out.println();
+        System.out.println("Evil? "+isEvil);
+        System.out.println();
+        System.out.println("***********************");
+        System.out.println("***** HERO INFO*****");
+        System.out.println("***********************");
 
 
 
