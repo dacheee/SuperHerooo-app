@@ -145,13 +145,31 @@ public class SuperHeroApp {
                     System.out.println(" Hero average daily salary is " + averageDailySalary + " euro");
                     break;
                 case 4:
+                    System.out.println("please enter hero index to be removed");
+                    int heroToRemove = scanner.nextInt();
 
+                    heroList = removeX(heroList, heroToRemove);
                     break;
                 default:
                     System.out.println("Bye!");
             }
         }
         while (option != 0);
+
+
+
+//        String[] heroList = {"Super Singer", "Mr. Bubbles", "Garbage Man", "Manly Man", "Girly Girl"};
+//        Add a search
+
+
+
+
+
+
+
+
+
+
 
     }
 }
